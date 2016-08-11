@@ -1723,14 +1723,21 @@ body:not(.post-template) .post-title {
 
 .poweredby {
     display: block;
-    width: 45%;
+    width: 25%;
     float: right;
     text-align: right;
 }
 
+.themedby {
+    display: block;
+    width: 25%;
+    float: center;
+    text-align: center;
+}
+
 .copyright {
     display: block;
-    width: 45%;
+    width: 25%;
     float: left;
 }
 
