@@ -1,10 +1,16 @@
-# Casper
+# Sadako
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+Default theme for https://strangeadventures.in
+
+Based on Casper, he default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
 ## Copyright & License
+
+###Sadako
+
+### Casper
 
 Copyright (c) 2013-2016 Ghost Foundation - Released under the MIT License.
 
