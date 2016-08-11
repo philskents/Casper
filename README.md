@@ -2,13 +2,13 @@
 
 Default theme for https://strangeadventures.in
 
-Based on Casper, he default theme for [Ghost](http://github.com/tryghost/ghost/).
+Based on Casper, the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
 ## Copyright & License
 
-###Sadako
+### Sadako
 
 ### Casper
 
