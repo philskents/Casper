@@ -27,6 +27,21 @@
 
         <section class="post-content">
             {{content}}
+            <a id="nodebb-comments"></a>
+            <!-- Uncomment below for nodebb comments-->
+            <!-- <script type="text/javascript">
+                var nbb = {};
+                nbb.url = 'https://strangeadventures.in/forum/'; // EDIT THIS
+
+                (function() {
+                nbb.articleID = '{{../post.id}}'; nbb.title = '{{../post.title}}';
+                nbb.tags = [{{#../post.tags}}"{{name}}",{{/../post.tags}}];
+                nbb.script = document.createElement('script'); nbb.script.type = 'text/javascript'; nbb.script.async = true;
+                nbb.script.src = nbb.url + '/plugins/nodebb-plugin-blog-comments/lib/ghost.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(nbb.script);
+                })();
+            </script>
+            <script id="nbb-markdown" type="text/markdown">{{{../post.markdown}}}</script> -->
         </section>
 
         <footer class="post-footer">
