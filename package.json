@@ -1,4 +1,9 @@
 {
-  "name": "Sadako",
-  "version": "1.1.1"
+  "name": "sadako",
+  "version": "0.1.0",
+  "author": {
+    "name": "Phil Skentelbery",
+    "email": "phil.skents@gmail.com",
+    "url": "https://strangeadventures.in"
+  }
 }
