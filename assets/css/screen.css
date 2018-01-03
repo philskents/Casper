@@ -1,0 +1,68 @@
+/* Table of Contents
+/* ------------------------------------------------------------
+This is a development CSS file which is built to a minified
+production stylesheet in assets/built/screen.css
+
+1. Global Styles
+2. Layout
+3. Special Template Styles
+
+*/
+
+/* 1. Global Styles - Set up the things
+/*------------------------------------------------------------- */
+
+@import "global.css";
+
+/* 2. Layout
+/*------------------------------------------------------------- */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px 10px;
+}
+
+.div-header {
+    grid-column: span 12;
+}
+
+.div-nav {
+    grid-column: span 12;
+    background-color: red;
+    grid-area: auto;
+}
+
+.div-content {
+    grid-column: span 12;
+}
+
+.div-footer {
+    grid-column: span 12;
+}
+
+/* 3. Special Template Styles
+/* ---------------------------------------------------------- */
+
+
+/* 4. Site Header
+/* ---------------------------------------------------------- */
+
+.site-title {
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    font-size: 3.8rem;
+    font-weight: 700;
+    font-family: 'VT323', monospace;
+}
+
+.site-description {
+    z-index: 10;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
