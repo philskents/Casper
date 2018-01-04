@@ -1,4 +1,5 @@
   {{#foreach posts}}
+  <div class="div-loop-post">
     <article class="{{post_class}}">
  	  <header class="post-header">
    	    <h2><a href="{{url}}">{{title}}</a></h2>
@@ -13,4 +14,5 @@
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
       </footer>
     </article>
+  </div>
   {{/foreach}}
