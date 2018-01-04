@@ -5,5 +5,8 @@
     "name": "Phil Skentelbery",
     "email": "phil.skents@gmail.com",
     "url": "https://strangeadventures.in"
-  }
+  },
+  "config": {
+    "posts_per_page": 6
+}
 }
