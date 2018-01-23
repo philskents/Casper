@@ -84,36 +84,9 @@ production stylesheet in assets/built/screen.css
 /* 5. Navigation
 /* ---------------------------------------------------------- */
 
-.nav {
+.div-nav {
     display: flex;
-    flex-wrap: wrap;
-	padding: 0;
-    list-style: none;
-    align-items: center;
 }
-
-.nav li {
-    display: block;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-}
-
-.nav li a {
-    display: block;
-    margin: 0;
-    padding: 10px 12px;
-    color: black;
-    opacity: 0.8;
-    text-decoration: none;
-}
-
-.navigation {
-	display: flex;
-	max-width: 900px;
-	margin: 0 auto;
-    overflow: hidden;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
+.nav-item{
+    padding-right: 5px;
 }
