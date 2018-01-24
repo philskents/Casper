@@ -96,5 +96,6 @@ production stylesheet in assets/built/screen.css
 }
 
 #pagination {
-    padding-top: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
 }
