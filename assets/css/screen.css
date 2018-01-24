@@ -33,6 +33,8 @@ production stylesheet in assets/built/screen.css
 
 #div-nav {
     grid-column: span 12;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 #div-content {
@@ -48,6 +50,8 @@ production stylesheet in assets/built/screen.css
 
 .div-loop-post {
     grid-column: span 6;
+    margin: 2em;
+    margin-bottom: -1em;
 }
 
 #div-footer {
@@ -87,6 +91,11 @@ production stylesheet in assets/built/screen.css
 #div-nav {
     display: flex;
 }
-.nav-item{
+.nav-item {
     padding-right: 5px;
+}
+
+#pagination {
+    padding-top: 2em;
+    padding-left: 2em;
 }
