@@ -25,21 +25,21 @@ production stylesheet in assets/built/screen.css
     grid-gap: 5px 10px;
 }
 
-.div-header {
+#div-header {
     grid-column: span 12;
     align-items: center;
     text-align: center;
 }
 
-.div-nav {
+#div-nav {
     grid-column: span 12;
 }
 
-.div-content {
+#div-content {
     grid-column: span 12;
 }
 
-.div-loop-grid {
+#div-loop-grid {
     grid-column: span 12;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -50,7 +50,7 @@ production stylesheet in assets/built/screen.css
     grid-column: span 6;
 }
 
-.div-footer {
+#div-footer {
     grid-column: span 12;
 }
 
@@ -61,7 +61,7 @@ production stylesheet in assets/built/screen.css
 /* 4. Site Header
 /* ---------------------------------------------------------- */
 
-.site-title {
+#site-title {
     z-index: 10;
     margin: 0;
     padding: 0;
@@ -70,7 +70,7 @@ production stylesheet in assets/built/screen.css
     font-family: 'VT323', monospace;
 }
 
-.site-description {
+#site-description {
     z-index: 10;
     margin: 0;
     padding: 5px 0;
@@ -84,7 +84,7 @@ production stylesheet in assets/built/screen.css
 /* 5. Navigation
 /* ---------------------------------------------------------- */
 
-.div-nav {
+#div-nav {
     display: flex;
 }
 .nav-item{
