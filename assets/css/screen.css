@@ -89,9 +89,6 @@ production stylesheet in assets/built/screen.css
 /* 5. Navigation
 /* ---------------------------------------------------------- */
 
-#top-nav {
-    display: flex;
-}
 .nav-item {
     padding-right: 5px;
 }
