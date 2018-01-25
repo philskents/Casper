@@ -88,7 +88,7 @@ production stylesheet in assets/built/screen.css
 /* 5. Navigation
 /* ---------------------------------------------------------- */
 
-#div-nav {
+#top-nav {
     display: flex;
 }
 .nav-item {
