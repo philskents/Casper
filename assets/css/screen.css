@@ -31,10 +31,11 @@ production stylesheet in assets/built/screen.css
     text-align: center;
 }
 
-#div-nav {
+#top-nav {
     grid-column: span 12;
     margin-left: 2em;
     margin-right: 2em;
+    display: flex;
 }
 
 #div-content {
