@@ -31,10 +31,11 @@ production stylesheet in assets/built/screen.css
     text-align: center;
 }
 
-#div-nav {
+#top-nav {
     grid-column: span 12;
     margin-left: 2em;
     margin-right: 2em;
+    display: flex;
 }
 
 #div-content {
@@ -88,9 +89,6 @@ production stylesheet in assets/built/screen.css
 /* 5. Navigation
 /* ---------------------------------------------------------- */
 
-#div-nav {
-    display: flex;
-}
 .nav-item {
     padding-right: 5px;
 }
